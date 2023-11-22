@@ -4,6 +4,9 @@ docker-compose up -d
 Access container at YOUR-IP:3000, localhost:3000
 Once inside the container do the following. (Automation script WIP)
 
+Replace: forge-gui-desktop-*-SNAPSHOT-*.tar.bz2
+with the latest version.
+
 # Create a forge directory
 mkdir forge
 

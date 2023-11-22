@@ -12,11 +12,11 @@ Once inside the container do the following. (Automation script WIP)
 # Create a forge directory
 mkdir forge
 
-# Update and Upgrade
-sudo apt update; sudo apt upgrade -y
+# Update and Upgrade using sudo
+apt update; sudo apt upgrade -y
 
-# Install additional packages
-sudo apt install -y wget nano bzip2 jq openjdk-11-jdk 
+# Install additional packages usign sudo
+apt install -y wget nano bzip2 jq openjdk-11-jdk 
 
 # Change into /forge directory
 cd forge

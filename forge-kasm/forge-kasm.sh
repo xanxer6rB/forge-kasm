@@ -29,7 +29,7 @@ bzip2 -d forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
 wait
 # Second extract forge-gui-desktop-SNAPSHOT using tar
 tar -xf forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
-
+wait
 # Remove forge-gui-desktop-SNAPSHOT
 rm forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
 

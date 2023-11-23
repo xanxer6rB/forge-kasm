@@ -3,8 +3,7 @@
 # Build and create a kasmVNC container
 docker-compose up -d
 
-# Access container at YOUR-IP:3000, localhost:3000
-# Once inside the container do the following. (Automation script WIP)
+echo "Access container at YOUR-IP:3000, localhost:3000. (forge-kasm build script WIP)."
 
 # Replace: forge-gui-desktop-*-SNAPSHOT-*.tar.bz2 with the latest version.
 

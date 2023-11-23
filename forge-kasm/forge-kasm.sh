@@ -10,25 +10,26 @@ docker-compose up -d
 mkdir forge
 
 # Update and Upgrade using sudo
-apt update; sudo apt upgrade -y
+sudo apt update; sudo apt upgrade -y
 
 # Install additional packages usign sudo
-apt install -y wget nano bzip2 jq openjdk-11-jdk 
+sudo apt install -y wget nano bzip2 jq openjdk-11-jdk 
 
 # Change into /forge directory
 cd forge
 
 # Download latest forge-gui-desktop-SNAPSHOT file into /forge directory using wget
-wget downloads dot cardforge dot org/dailysnapshots/forge-gui-desktop-*-SNAPSHOT-*.tar.bz2
+
+wget https://downloads.cardforge.org/dailysnapshots/forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
 
 # First extract forge-gui-desktop-SNAPSHOT using bzip2
-bzip2 -d forge-gui-desktop-*-SNAPSHOT-*.tar.bz2
-
+bzip2 -d forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
+wait
 # Second extract forge-gui-desktop-SNAPSHOT using tar
-tar -xf forge-gui-desktop-*-SNAPSHOT-*.tar
+tar -xf forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
 
 # Remove forge-gui-desktop-SNAPSHOT
-rm forge-gui-desktop-*-SNAPSHOT-*.tar
+rm forge-gui-desktop-1.6.59-SNAPSHOT-11-22.tar.bz2
 
 # Change permissions of .sh files
 chmod +x *.sh

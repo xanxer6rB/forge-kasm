@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # forge-kasm build script test
 
 # Build and create a kasmVNC container

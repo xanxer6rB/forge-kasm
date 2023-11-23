@@ -9,4 +9,5 @@ You do not need casaos to use this, just docker and docker-compose
 
 docker-compose up -d
 
-forge-kasm.sh is a build script in testing
+# Build script
+forge-kasm.sh is a build script in testing that is used inside of the kasm container to finish setup.

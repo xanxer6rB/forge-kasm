@@ -18,10 +18,10 @@ services:
         protocol: tcp
     privileged: true
     restart: unless-stopped
-#    volumes:
-#      - type: bind
-#        source: /storage/for/forge-kasm/config
-#        target: /config
+    volumes:
+      - type: bind
+        source: /forge-kasm/forge-kasm.sh
+        target: /config/forge
 #    devices: []
 #    shm_size: "4gb"
 #    cap_add: []

@@ -20,8 +20,9 @@ services:
     restart: unless-stopped
     volumes:
       - type: bind
-        source: /forge-kasm/forge-kasm.sh
+        source: ./forge-kasm/forge-kasm.sh
         target: /config/forge
+     command: bash -c "./forge/forge.sh"
 #    devices: []
 #    shm_size: "4gb"
 #    cap_add: []

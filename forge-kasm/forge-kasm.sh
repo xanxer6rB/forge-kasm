@@ -2,7 +2,7 @@
 
 # forge-kasm build script test
 
-echo "Access container at YOUR-IP:3000, localhost:3000. (forge-kasm build script WIP)."
+echo "This is an attempt at a build script for forge-gui-desktop that is to be ran after container setup that's still a wip"
 
 # Replace: forge-gui-desktop-*-SNAPSHOT-*.tar.bz2 with the latest version.
 

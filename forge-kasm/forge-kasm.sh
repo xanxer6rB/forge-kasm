@@ -1,36 +1,16 @@
 #!/bin/bash
 
-# forge-kasm build script test
-
-echo "This is an attempt at a build script for forge-gui-desktop that is to be ran after container setup."
-
-# Replace: forge-gui-desktop-*-SNAPSHOT-*.tar.bz2 with the latest version.
-
-# Create a forge directory
+echo "FORGE-GUI-DESKTOP BUILD SCRIPT TEST - forge-kasm"
 mkdir forge
-
-# Update and Upgrade using sudo
-apt update; apt upgrade -y
-
-# Install additional packages usign sudo
-apt install -y wget nano bzip2 jq openjdk-11-jdk 
-
-# Change into /forge directory
+apt update; sudo apt upgrade -y
+apt install -y wget nano bzip2 jq openjdk-11-jdk
+wait
 cd forge
-
-# Download latest forge-gui-desktop-SNAPSHOT file into /forge directory using wget
 wget https://downloads.cardforge.org/dailysnapshots/forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar.bz2
-
-# First extract forge-gui-desktop-SNAPSHOT using bzip2
+echo "EXTRACTING FILES PLEASE WAIT"
 bzip2 -d forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar.bz2
-
-# Second extract forge-gui-desktop-SNAPSHOT using tar
-tar -xf forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar.bz2
-
-# Remove forge-gui-desktop-SNAPSHOT
-rm forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar.bz2
-
-# Change permissions of .sh files
+tar -xf forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar
+rm forge-gui-desktop-1.6.59-SNAPSHOT-11-24.tar
 chmod +x *.sh
-
-echo "Setup complete. Use command ./forge/forge.sh to run forge-gui-desktop"
+echo "DONE"
+echo -e "SETUP COMPLETE. \nUSE COMMAND: \nFORGE-GUI-DESKTOP: ./forge/forge.sh \nFORGE-ADVENTURE: ./forge/forge-adventure.sh"

@@ -2,7 +2,7 @@
 
 # forge-kasm build script test
 
-echo "This is an attempt at a build script for forge-gui-desktop that is to be ran after container setup that's still a wip"
+echo "This is an attempt at a build script for forge-gui-desktop that is to be ran after container setup."
 
 # Replace: forge-gui-desktop-*-SNAPSHOT-*.tar.bz2 with the latest version.
 

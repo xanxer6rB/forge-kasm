@@ -3,8 +3,7 @@ Play forge-gui-desktop in a docker container using KasmVNC
 
 The docker-compose file was built, ran/tested, and exported from a Zimaboard 832
 
-Has been tested on linux based systems so far.
-Having a windows based system with wsl enabled and docker installed on wsl may work as well.
+Has been tested on linux based systems so far but having a windows based system with wsl enabled and docker installed on wsl may work as well.
 
 # Build and create kasmVNC container
 

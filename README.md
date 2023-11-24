@@ -9,5 +9,7 @@ You do not need casaos to use this, just docker and docker-compose
 
 Use command on compose file: docker-compose up -d
 
+After the container is running, access container at YOUR-IP:3000, localhost:3000 in your web browser.
+
 # Build script
 forge-kasm.sh is a build script in testing that is used inside of the kasm container to finish setup.

@@ -18,4 +18,4 @@ forge-kasm.sh is a build script in testing that is used inside of the kasm conta
 
 I do not own either projects Forge or KasmVNC in any way.
 
-Just a Forge user whom wants to contribute to the Forge community is.
+Just a Forge user whom wants to contribute to the Forge community.

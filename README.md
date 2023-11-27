@@ -1,9 +1,8 @@
-# forge-kasmvnc
-How-to-Play forge-gui-desktop in a docker container using KasmVNC
+# How-to-Play forge-gui-desktop using KasmVNC - forge-kasmvnc
 
 The docker-compose file was exported from a Zimaboard 832.
 
-Has been tested on linux based systems so far but having a windows based system with Docker Desktop may work as well (Have not tested yet).
+The docker-compose file and build-script have been tested on linux based systems so far but having a windows based system with Docker Desktop may work as well (Have not tested yet).
 
 # Build and create kasmVNC container
 

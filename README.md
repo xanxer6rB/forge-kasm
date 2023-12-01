@@ -1,6 +1,6 @@
+# UPDATE - Everything has now been conolidated into a Dockerfile
+
 # How-to-Play forge-gui-desktop using KasmVNC - forge-kasmvnc
-# UPDATE
-Everything has now been conolidated into a Dockerfile
 
 # To create the image using sudo
 docker build -t forge-kasm .

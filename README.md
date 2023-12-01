@@ -10,12 +10,13 @@ docker run -it -p 3000:3000 forge-kasm bash
 # To run the container detatched running in the background
 docker run -d -it -p 3000:3000 forge-kasm bash
 
+# To Access container
 After the container is running, access container at YOUR-IP:3000, localhost:3000 in your web browser.
 After accessing the container in your browser run one of the following commands:
 
-  To play forge-gui-dekstop: bash /forge.sh
+  - To play forge-gui-dekstop: bash /forge.sh
   
-  To play forge-adventure: bash /forge-adventure.sh
+  - To play forge-adventure: bash /forge-adventure.sh
 
 
 I do not own Forge, linuxserver/baseimage-kasmvnc or KasmVNC in any way.

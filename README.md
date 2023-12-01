@@ -1,6 +1,6 @@
 # UPDATE - Everything has now been conolidated into a Dockerfile
 
-# How-to-Play forge-gui-desktop using KasmVNC - forge-kasmvnc
+# How-to-Play forge-gui-desktop using linuxserver/baseimage-kasmvnc - forge-kasm
 
 # To create the image
 docker build -t forge-kasm .
@@ -16,8 +16,8 @@ After accessing the container in your browser run one of the following commands:
   To play forge-adventure: ./forge-adventure.sh
 
 
-I do not own either projects Forge or KasmVNC in any way.
+I do not own Forge, linuxserver/baseimage-kasmvnc or KasmVNC in any way.
 
 Just a Forge user whom wants to contribute to the Forge community.
 
-I give big thanks to the devs and creators of KasmVNC. It does all the heavey lifting for helping run applications through a browser.
+I give big thanks to the devs and creators at linuxserver for their basicimage-kasmvnc. It does all the heavey lifting for helping run applications through a browser.

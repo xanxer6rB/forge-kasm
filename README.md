@@ -2,10 +2,10 @@
 
 # How-to-Play forge-gui-desktop using KasmVNC - forge-kasmvnc
 
-# To create the image using sudo
+# To create the image
 docker build -t forge-kasm .
 
-# To run the container using sudo
+# To run the container
 docker run -it -p 3000:3000 forge-kasm bash
 # To run the container detatched running in the background
 docker run -d -it -p 3000:3000 forge-kasm bash

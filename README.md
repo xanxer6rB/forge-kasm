@@ -1,4 +1,4 @@
-# UPDATE - Everything has now been conolidated into a Dockerfile
+# UPDATE - Everything has now been consolidated into a Dockerfile
 
 # How-to-Play forge-gui-desktop using linuxserver/baseimage-kasmvnc - forge-kasm
 

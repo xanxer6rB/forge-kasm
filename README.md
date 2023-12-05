@@ -17,6 +17,11 @@ After accessing the container in your browser run one of the following commands:
   - To play forge-gui-dekstop: bash /forge.sh
   
   - To play forge-adventure: bash /forge-adventure.sh
+  - To use forge-adventure-editor: bash /forge-adventure-editor.sh
+
+  - To remove forge directory: bash /remove-forge.sh
+
+  - To update forge: bash /update-forge.sh
 
 
 I do not own Forge, linuxserver/baseimage-kasmvnc or KasmVNC in any way.

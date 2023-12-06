@@ -1,4 +1,4 @@
-# How-to-Play forge-gui-desktop using linuxserver/baseimage-kasmvnc - forge-kasm
+# Play forge-gui-desktop using linuxserver/baseimage-kasmvnc - forge-kasm
 
 # To create the image
 Open a terminal within either forge-kasmVNC or forge-kasVNC-alpine and run " docker build -t forge-kasm . " 
